@@ -45,23 +45,19 @@ h6 {
 }
 
 .separator p {
-padding-left: 100px;
-padding-right: 100px;
 text-align: center;
 margin-top: 0px;
 position: inherit;
 }
 
 .logo_background{
-height: 500px;
 overflow: hidden;
 background: radial-gradient(#2F2F2F, #000000);
 box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .logo_background img {
-  height: 400px;
-  position: absolute;;
+  max-height: 400px;
   margin: auto;
   top: 50px;
   left: 0;
@@ -74,11 +70,7 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
   background-color: #0d0d0d;
   color: white;
   overflow: hidden;
-  height: 60px;
-  padding: 0 30px;
-  padding-left: 200px;
-  padding-right: 200px;
-  align-items: : center;
+  align-items: center;
 }
 
 .title {
@@ -91,7 +83,7 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
   margin: 0;
   padding: 0px;
   box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
-  }
+}
 
 .nav-list a {
   text-decoration: none;
@@ -99,11 +91,11 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .nav-item {
-  display: inline;
+  display: block;
   line-height: 60px;
   text-transform: uppercase;
   font-size: 14px;
-  margin-right: 50px;
+  text-align: center;
 }
 
 /* Background */
@@ -161,7 +153,7 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
 /* Content */
 
 .separator {
-  height: 350px;
+  min-height: 350px;
   padding: 50px;
   transform-style: preserve-3d;
   background-color: #0d0d0d;
@@ -251,4 +243,57 @@ footer {
   float:right;
   margin-top: 25px;
   font-size: 10px;
+}
+
+@media only screen and (min-device-width : 320px) {
+    .nav-bar {
+        padding: 0 10px;
+    }
+ 
+    
+    .separator p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) {
+    .nav-bar {
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    .separator p {
+        padding: 10px;
+    }
+    
+    .logo_background {
+        height: 450px;
+    }
+    .logo_background img{
+        position: absolute;
+    }
+    
+}
+
+@media only screen and (min-device-width : 1170px) {
+     .nav-bar {
+        padding: 0 20px;
+        height: 60px;
+    }
+    
+    .nav-item {
+        display: inline;
+        margin-right: 50px;
+    }
+    
+    .logo_background {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-device-width : 1382px) {
+     .nav-bar {
+        padding: 0 20px;
+        height: 60px;
+    }
 }
