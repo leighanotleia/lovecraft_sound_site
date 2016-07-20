@@ -150,6 +150,30 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
   height: 300px;
 }
 
+.portrait .illustration_00 {
+    background-image: url("../images/abstract-music-rock-bw-portrait.jpg");
+}
+
+.portrait .illustration_01 {
+    background-image: url("../images/SOUNDDESIGN-portrait.jpg");
+}
+.portrait .illustration_02 {
+    background-image: url("../images/hands-music-musician-piano-portrait.jpeg");
+}
+.portrait .illustration_03 {
+    background-image: url("../images/stockvault-the-portrait-of-harmony99836-portrait.jpg");
+}
+.portrait .illustration_04 {
+    background-image: url("../images/technology-music-sound-audio-portrait.jpg");
+}
+.portrait .illustration_05 {
+    background-image: url("../images/MIXING-portrait.jpg");
+}
+.portrait .illustration_06 {
+    background-image: url("../images/sound_pic-portrait.jpg");
+}
+
+
 /* Content */
 
 .separator {
