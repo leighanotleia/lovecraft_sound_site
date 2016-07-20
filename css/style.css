@@ -111,7 +111,7 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
 .illustration_00 {
   background-color: #0d0d0d;
   background-image: url("../images/abstract-music-rock-bw.jpg");
-  height: 300px;
+  min-height: 300px;
 }
 
 .illustration_01 {
@@ -123,32 +123,69 @@ box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.5);
 .illustration_02 {
   background-color: #0d0d0d;
   background-image: url("../images/hands-music-musician-piano.jpeg");
-  height: 300px;
+  min-height: 300px;
 }
 
 .illustration_03 {
   background-color: #0d0d0d;
   background-image: url("../images/stockvault-the-portrait-of-harmony99836.jpg");
-  height: 300px;
+  min-height: 300px;
 }
 
 .illustration_04 {
   background-color: #0d0d0d;
   background-image: url("../images/technology-music-sound-audio.jpg");
-  height: 300px;
+  min-height: 300px;
 }
 
 .illustration_05 {
   background-color: #0d0d0d;
   background-image: url("../images/MIXING.jpg");
-  height: 300px;
+  min-height: 300px;
 }
 
 .illustration_06 {
   background-color: #0d0d0d;
   background-image: url("../images/sound_pic.jpg");
-  height: 300px;
+  min-height: 300px;
 }
+
+.portrait .illustration_00 {
+    background-image: url("../images/abstract-music-rock-bw-portrait.jpg");
+    min-height: 300px;
+}
+
+.portrait .illustration_01 {
+    background-image: url("../images/SOUNDDESIGN-portrait.jpg");
+    min-height: 300px;
+    height: auto;
+}
+.portrait .illustration_02 {
+    background-image: url("../images/hands-music-musician-piano-portrait.jpeg");
+    min-height: 300px;
+    height: auto;
+}
+.portrait .illustration_03 {
+    background-image: url("../images/stockvault-the-portrait-of-harmony99836-portrait.jpg");
+    min-height: 300px;
+    height: auto;
+}
+.portrait .illustration_04 {
+    background-image: url("../images/technology-music-sound-audio-portrait.jpg");
+    min-height: 300px;
+    height: auto;
+}
+.portrait .illustration_05 {
+    background-image: url("../images/MIXING-portrait.jpg");
+    min-height: 300px;
+    height: auto;
+}
+.portrait .illustration_06 {
+    background-image: url("../images/sound_pic-portrait.jpg");
+    min-height: 300px;
+    height: auto;
+}
+
 
 /* Content */
 

@@ -161,6 +161,18 @@
         </li>
       </ul>
     </footer>
-
+    <script>
+        function handleResize() {
+            if (document.documentElement.clientWidth > document.documentElement.clientHeight) {
+                if(document.documentElement.classList.contains("portrait")) {
+                    document.documentElement.classList.remove("portrait");
+                } 
+            } else {
+                document.documentElement.classList.add("portrait");
+            }
+        }
+        window.addEventListener("resize", handleResize);
+        handleResize();
+    </script>
   </body>
 </html>
